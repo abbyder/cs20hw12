@@ -20,7 +20,7 @@ http.createServer(function(req, res) {
         res.writeHead(200, {'Content-Type':'text/html'});
 
         // styling for results page
-        res.write("<head><style type='text/css'>");
+        res.write("<head><title>Results | Stockticker</title><style type='text/css'>");
         res.write("html, body { font-family: 'Lucida Grande', sans-serif; margin: 30px;}");
         res.write("h1, p {text-align: center;}");
         res.write("button {padding: 5px 20px; font-family: 'Lucida Grande', sans-serif; font-size: 16px;}");
