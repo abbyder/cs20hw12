@@ -47,7 +47,7 @@ http.createServer(function(req, res) {
             info.then((data) => {
                 // check if query found anything
                 if (data == null) {
-                    res.write("<p>\"" + pdata["userInput"] + "\" was not found in that database as a " 
+                    res.write("<p>\"" + pdata["userInput"] + "\" was not found in the database as a " 
                                 + pdata["inputType"] + ".</p>");
                     
                     // back button
