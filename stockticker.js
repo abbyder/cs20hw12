@@ -52,7 +52,7 @@ http.createServer(function(req, res) {
                     
                     // back button
                     res.write("<br /><div id='btn-container'>");
-                    res.write("<form method='post' action='http://localhost:8080/'>");
+                    res.write("<form method='post' action='https://cs20stocktickerapp.herokuapp.com/'>");
                     res.write("<button type='submit'>Search Again?</button>");
                     res.write("</form></div>")
 
@@ -73,7 +73,7 @@ http.createServer(function(req, res) {
 
                     // back button
                     res.write("<br /><div id='btn-container'>");
-                    res.write("<form method='post' action='http://localhost:8080/'>");
+                    res.write("<form method='post' action='https://cs20stocktickerapp.herokuapp.com/'>");
                     res.write("<button type='submit'>Search Again?</button>");
                     res.write("</form></div>")
 
