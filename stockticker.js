@@ -26,7 +26,7 @@ http.createServer(function(req, res) {
         res.write("button {padding: 5px 20px; font-family: 'Lucida Grande', sans-serif; font-size: 16px;}");
         res.write("#btn-container {display: flex; justify-content: center;}");
         res.write("#companies {display: flex; justify-content: center;}");
-        res.write("ul {margin: 0px;}");
+        res.write("ul {margin: 0px; padding: 0px;}");
         res.write("</style></head>")
 
 		res.write ("<h1>Search Results</h1>");
