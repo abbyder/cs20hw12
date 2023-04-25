@@ -1,6 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 const qs = require("querystring");
+var port = process.env.PORT || 3000;
 
 http.createServer(function(req, res) {
     // load up form
@@ -93,7 +94,7 @@ http.createServer(function(req, res) {
     }
 
 
-}).listen(8080);
+}).listen(port);
 
 
 async function lookupDB(input, field) {
